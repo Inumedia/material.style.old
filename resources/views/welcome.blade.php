@@ -18,13 +18,9 @@
             <h2 class="tagline">The art of designing with the physical world in mind.</h2>
         </div>
         <div class="container-fluid main">
-        <div class="row">
-            <nav class="col-xs-3 menu">
-            <ul>
-                <li>Test</li>
-            </ul>
-            </nav>
-        </div>
+            <div class="well page active">
+            test.
+            </div>
         </div>
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
