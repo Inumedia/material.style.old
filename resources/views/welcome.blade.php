@@ -11,8 +11,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Material Styling</div>
-                <div class="quote">Hello world.</div>
+                <div class="title">Material Style</div>
+                <div class="quote">The art of designing with the physical world in mind.</div>
             </div>
         </div>
     </body>
