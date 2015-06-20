@@ -19,13 +19,18 @@
         </div>
         <div class="container-fluid main">
             <div class="well page active">
+            <p>Hello world! Soon there will be a lot of content here, be ready!
             </div>
             <div class="well page active">
-            Hello world! Soon there will be a lot of content here, be ready!
+            Hello,<br>Here is a little week end exploration of how Google could look like with the material design. I will add the animations next week. Just a concept. Btw, It's not a fixed footer, the footer is at the bottom of all the results of the page, (I just included it so you can see it).<br>
+I love comments, feedbacks, discussions.<br>PS: I also included a random variation.<br><br>PS2: FEATURED on TheVerge: http://www.theverge.com/2014/12/4/7331767/google-com-material-design-concept <br>And FastCompanies: http://www.fastcodesign.com/3039220/what-googlecom-would-look-like-with-a-material-design-revamp<br>
+<br>Have an outstanding day
             </div>
+            <a href="#" class="well-link">
             <div class="well page active">
-                Hello world!
+                Load more
             </div>
+            </a>
         </div>
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
