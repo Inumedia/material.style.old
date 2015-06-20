@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>Laravel</title>
-        
         <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-        <link href='/bootstrap-material-design/dist/css/roboto.min.css' rel='stylesheet' type='text/css'>
         <link href="/bootstrap-material-design/dist/css/material-fullpalette.min.css" rel="stylesheet" title="Default Style">
         <link href="/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet" title="Default Style">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <link href="/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet" title="Default Style">
         <link href="/css/style.css" rel="stylesheet" title="Default Style">
         <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 
@@ -14,7 +14,8 @@
     </head>
     <body>
         <div class="header-panel shadow-z-2 well-material-cyan-500">
-            <div class="container-fluid"><h1 class="title">Material Styling</h1></div>
+            <h1 class="title">Material Style</h1>
+            <h2 class="tagline">The art of designing with the physical world in mind.</h2>
         </div>
         <div class="container-fluid main">
         <div class="row">

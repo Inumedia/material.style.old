@@ -1,3 +1,7 @@
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4{
+  font-family: 'Lato';
+}
+
 html, body {
     height: 100%;
 }
@@ -8,7 +12,6 @@ body {
     width: 100%;
     display: table;
     font-weight: 100;
-    font-family: 'Roboto';
 }
 
 .container {
@@ -25,15 +28,22 @@ body {
 .title {
     font-size: 48px;
     color: #FFF;
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 35px;
     position:absolute;
-    bottom: 0;
+    bottom: 30px;
 }
 
-.quote {
+.quote, .tagline {
     font-size: 24px;
 }
+.tagline{
+    position: absolute;
+    bottom: 0;
+    padding-left: 35px;
+    color: #FFF;
+}
+
 * {
   box-sizing: border-box;
 }
