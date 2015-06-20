@@ -13,7 +13,7 @@
 
     </head>
     <body>
-        <div class="header-panel shadow-z-2">
+        <div class="header-panel shadow-z-2 well-material-cyan-500">
             <div class="container-fluid"><h1 class="title">Material Styling</h1></div>
         </div>
         <div class="container-fluid main">
