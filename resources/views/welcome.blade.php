@@ -19,7 +19,12 @@
         </div>
         <div class="container-fluid main">
             <div class="well page active">
-            test.
+            </div>
+            <div class="well page active">
+            Hello world! Soon there will be a lot of content here, be ready!
+            </div>
+            <div class="well page active">
+                Hello world!
             </div>
         </div>
 
