@@ -60,7 +60,9 @@ body {
 }
 .header-panel {
   height: 400px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 3;
 }
 .header-panel div {
@@ -69,7 +71,7 @@ body {
 }
 .main{
   padding-top: 20px;
-  margin-top: -250px;
+  margin-top: 150px;
   z-index: 3;
 }
 .menu {

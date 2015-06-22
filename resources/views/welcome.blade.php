@@ -9,15 +9,14 @@
         <link href="/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet" title="Default Style">
         <link href="/css/style.css" rel="stylesheet" title="Default Style">
         <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-
-
+        <script src="/skrollr/dist/skrollr.min.js"></script>
     </head>
     <body>
-        <div class="header-panel shadow-z-2 well-material-cyan-500">
-            <h1 class="title">Material Style</h1>
-            <h2 class="tagline">The art of designing with the physical world in mind.</h2>
+        <div class="header-panel shadow-z-2 well-material-cyan-500" data-0="height:400px;" data-100="height:0px;">
+            <h1 class="title" data-0="opacity:1;" data-75="opacity:0;">Material Style</h1>
+            <h2 class="tagline" data-0="opacity:1;" data-75="opacity:0;">The art of designing with the physical world in mind.</h2>
         </div>
-        <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block">
+        <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block" id="skrollr-body">
             <div class="well page active">
             <p>Hello world! Soon there will be a lot of content here, be ready!
             </div>
@@ -40,6 +39,9 @@ I love comments, feedbacks, discussions.<br>PS: I also included a random variati
         <script src="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.js"></script>
         <script>
             $("#dropdown-menu select").dropdown();
+            $(function(){
+                var skroll = skrollr.init();
+            });
         </script>
     </body>
 </html>
