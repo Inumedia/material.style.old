@@ -17,7 +17,7 @@
             <h1 class="title">Material Style</h1>
             <h2 class="tagline">The art of designing with the physical world in mind.</h2>
         </div>
-        <div class="ccontainer-fluid main col-xs-9 center-block">
+        <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block">
             <div class="well page active">
             <p>Hello world! Soon there will be a lot of content here, be ready!
             </div>
