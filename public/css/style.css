@@ -14,6 +14,13 @@ body {
     font-weight: 300;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
 .container {
     text-align: center;
     display: table-cell;
@@ -31,7 +38,7 @@ body {
     font-weight: 300;
     padding-left: 35px;
     position:absolute;
-    bottom: 40px;
+    top: 0px;
 }
 
 .quote, .tagline {
@@ -39,7 +46,7 @@ body {
 }
 .tagline{
     position: absolute;
-    bottom: 10px;
+    top: 50px;
     padding-left: 35px;
     color: #FFF;
 }
@@ -52,7 +59,7 @@ body {
   box-sizing: border-box;
 }
 .header-panel {
-  height: 144px;
+  height: 400px;
   position: relative;
   z-index: 3;
 }
@@ -62,6 +69,8 @@ body {
 }
 .main{
   padding-top: 20px;
+  margin-top: -250px;
+  z-index: 3;
 }
 .menu {
   overflow: auto;
