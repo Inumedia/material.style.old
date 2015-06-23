@@ -1,3 +1,6 @@
 [submodule "public/bootstrap-material-design"]
 	path = public/bootstrap-material-design
 	url = https://github.com/FezVrasta/bootstrap-material-design.git
+[submodule "public/skrollr"]
+	path = public/skrollr
+	url = https://github.com/Prinzhorn/skrollr.git
