@@ -12,21 +12,21 @@
         <script src="/skrollr/dist/skrollr.min.js"></script>
     </head>
     <body>
-        <div class="header-panel shadow-z-2 well-material-cyan-500" data-0="height:400px;" data-100="height:0px;">
+        <div class="header-panel shadow-z-1 well-material-cyan-500" data-0="height:400px;" data-100="height:0px;">
             <h1 class="title" data-0="opacity:1;" data-75="opacity:0;">Material Style</h1>
             <h2 class="tagline" data-0="opacity:1;" data-75="opacity:0;">The art of designing with the physical world in mind.</h2>
         </div>
         <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block" id="skrollr-body">
-            <div class="well page active">
+            <div class="panel page active shadow-z-1">
             <p>Hello world! Soon there will be a lot of content here, be ready!
             </div>
-            <div class="well page active" style="height: 1920px;">
+            <div class="panel page active" style="height: 1920px;">
             Hello,<br>Here is a little week end exploration of how Google could look like with the material design. I will add the animations next week. Just a concept. Btw, It's not a fixed footer, the footer is at the bottom of all the results of the page, (I just included it so you can see it).<br>
 I love comments, feedbacks, discussions.<br>PS: I also included a random variation.<br><br>PS2: FEATURED on TheVerge: http://www.theverge.com/2014/12/4/7331767/google-com-material-design-concept <br>And FastCompanies: http://www.fastcodesign.com/3039220/what-googlecom-would-look-like-with-a-material-design-revamp<br>
 <br>Have an outstanding day
             </div>
             <a href="#" class="well-link">
-            <div class="well page active">
+            <div class="panel page active shadow-z-1">
                 Load more
             </div>
             </a>
