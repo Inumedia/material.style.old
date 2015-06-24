@@ -12,8 +12,8 @@
         <script src="/skrollr/dist/skrollr.min.js"></script>
     </head>
     <body>
-        <div class="header-panel shadow-z-1 well-material-cyan-500" data-0="height:400px;" data-100="height:0px;">
-            <h1 class="title" data-0="opacity:1;" data-75="opacity:0;">Material Style</h1>
+        <div class="header-panel shadow-z-1 well-material-cyan-500" data-0="height:400px;" data-100="height:80px;">
+            <h1 class="title" data-0="font-size:48px;" data-100="font-size:36px">Material Style</h1>
             <h2 class="tagline" data-0="opacity:1;" data-75="opacity:0;">The art of designing with the physical world in mind.</h2>
         </div>
         <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block" id="skrollr-body">
