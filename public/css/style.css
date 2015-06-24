@@ -12,6 +12,7 @@ body {
     width: 100%;
     display: table;
     font-weight: 300;
+    padding-bottom: 200px;
 }
 
 .center-block {
@@ -58,8 +59,13 @@ body {
 * {
   box-sizing: border-box;
 }
-.panel{
+.description{
   padding: 20px;
+}
+.previewImage{
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 .header-panel {
   height: 400px;

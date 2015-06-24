@@ -18,7 +18,8 @@
         </div>
         <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block" id="skrollr-body">
             <div class="panel page active shadow-z-1" style="height:400px;">
-            <p>Hello world! Soon there will be a lot of content here, be ready!
+            <div class="col-xs-6 description"><p>Hello world! Soon there will be a lot of content here, be ready!</p></div>
+            <div class="col-xs-6 previewImage" style="background:url('/images/Google-material.png');background-size: cover;"></div>
             </div>
             <div class="panel page active" style="height: 1920px;">
             Hello,<br>Here is a little week end exploration of how Google could look like with the material design. I will add the animations next week. Just a concept. Btw, It's not a fixed footer, the footer is at the bottom of all the results of the page, (I just included it so you can see it).<br>
