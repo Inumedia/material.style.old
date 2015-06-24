@@ -17,7 +17,7 @@
             <h2 class="tagline" data-0="opacity:1;" data-75="opacity:0;">The art of designing with the physical world in mind.</h2>
         </div>
         <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block" id="skrollr-body">
-            <div class="panel page active shadow-z-1">
+            <div class="panel page active shadow-z-1" style="height:400px;">
             <p>Hello world! Soon there will be a lot of content here, be ready!
             </div>
             <div class="panel page active" style="height: 1920px;">
