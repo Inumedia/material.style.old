@@ -13,8 +13,10 @@
     </head>
     <body>
         <div class="header-panel shadow-z-1 well-material-cyan-500" data-0="height:400px;" data-100="height:80px;">
+            <div class="headerCell"><div class="headerContent">
             <h1 class="title" data-0="font-size:48px;" data-100="font-size:36px">Material Style</h1>
             <h2 class="tagline" data-0="opacity:1;" data-75="opacity:0;">The art of designing with the physical world in mind.</h2>
+            </div></div>
         </div>
         <div class="container-fluid main col-xs-12 col-sm-12 col-md-10 col-lg-8 center-block" id="skrollr-body">
             <div class="panel page active shadow-z-1" style="height:400px;">
@@ -40,8 +42,46 @@ I love comments, feedbacks, discussions.<br>PS: I also included a random variati
         <script src="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.js"></script>
         <script>
             $("#dropdown-menu select").dropdown();
+
+            function makeAbsolute(selector){
+                var jqElem = $(selector);
+                var jqElemPos = jqElem.position();
+                jqElem.css({
+                    top: jqElemPos.top + "px",
+                    left: (jqElemPos.left) + "px",
+                    position: "absolute"
+                });
+            }
+
+            makeAbsolute(".tagline");
+            makeAbsolute(".title");
+            setTimeout(function(){
+                $(".title, .tagline, .header-panel").addClass("headerAbsolute");
+                setTimeout(function(){
+                    $("body").css("overflow", "auto");
+                    $(".header-panel").css({
+                        "transition": "none",
+                        "-webkit-transition": "none"
+                    });
+                    var skroll = skrollr.init();
+                }, 2000);
+            }, 250);
+
+
             $(function(){
-                var skroll = skrollr.init();
+                var bodyElement = $("html");
+
+                
+                $(".panel").css({
+                    "position": "relative",
+                    "top": bodyElement.height() + "px",
+                    "opacity": "0.25",
+                    "-webkit-animation": "slide 1s forwards",
+                    "-webkit-animation-delay": "1s",
+                    "animation": "slide 1s forwards",
+                    "animation-delay": "1s",
+                    "display": "block"
+                });
             });
         </script>
     </body>

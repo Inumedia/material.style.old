@@ -13,6 +13,7 @@ body {
     display: table;
     font-weight: 300;
     padding-bottom: 200px;
+    overflow: hidden;
 }
 
 .center-block {
@@ -38,18 +39,27 @@ body {
     color: #FFF;
     font-weight: 300;
     padding-left: 35px;
-    position:absolute;
-    top: 0px;
+    transition: top 2s, left 2s;
+    -webkit-transition: top 2s, left 2s;
+}
+
+.headerAbsolute.title{
+    top: 0px!important;
+    left: 0px!important;
 }
 
 .quote, .tagline {
     font-size: 24px;
 }
 .tagline{
-    position: absolute;
-    top: 50px;
     padding-left: 35px;
     color: #FFF;
+    transition: top 2s, left 2s;
+    -webkit-transition: top 2s, left 2s;
+}
+.headerAbsolute.tagline{
+    top: 50px!important;
+    left: 0px!important;
 }
 
 .well-link{
@@ -68,13 +78,41 @@ body {
   height: 100%;
 }
 .header-panel {
-  height: 400px;
   position: fixed;
   top: 0;
   width: 100%;
+  height: 100%;
+  z-index: 4;
+  display: table;
+  margin: 0;
+  padding: 0;
+
+
+  transition: height 2s;
+  -webkit-transition: height 2s;
+}
+
+.headerAbsolute.header-panel{
+  height: 400px;
   z-index: 3;
 }
-.header-panel div {
+
+.headerCell{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.headerContent{
+  text-align: center;
+  display: inline-block;
+}
+
+.headerContent h1{
+  display: inline;
+}
+
+.header-panel > div {
   position: relative;
   height: 100%;
 }
@@ -144,7 +182,7 @@ body {
 
 .page.active {
   transform: translateY(0px);
-  transition: all 0.3s ease-out;
+  transition: all 0.2s ease-out;
   display: block;
   opacity: 1;
 }
@@ -159,4 +197,20 @@ body {
 
 #source-modal h4 {
   color: black;
+}
+
+@-webkit-keyframes slide {
+    100% { top: 0; opacity: 1; }
+}
+
+@keyframes slide {
+    100% { top: 0; opacity: 1; }
+}
+
+@-webkit-keyframes headerSlide {
+    100% { height: 400px; z-index: 3; display: block; }
+}
+
+@keyframes headerSlide {
+    100% { height: 400px; z-index: 3; display: block; }
 }
