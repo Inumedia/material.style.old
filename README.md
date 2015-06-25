@@ -1,5 +1,5 @@
 # material.style
-Laravel code running behind the domain material.style
+Laravel code running behind the domain [material.style](http://material.style)
 
 To get it up and running, I recommend using Ubuntu as your Development machine.
 
