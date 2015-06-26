@@ -65,7 +65,7 @@ I love comments, feedbacks, discussions.<br>PS: I also included a random variati
                     });
                     var skroll = skrollr.init();
                 }, 2000);
-            }, 250);
+            }, 1000);
 
 
             $(function(){
@@ -77,9 +77,9 @@ I love comments, feedbacks, discussions.<br>PS: I also included a random variati
                     "top": bodyElement.height() + "px",
                     "opacity": "0.25",
                     "-webkit-animation": "slide 1s forwards",
-                    "-webkit-animation-delay": "1s",
+                    "-webkit-animation-delay": "2s",
                     "animation": "slide 1s forwards",
-                    "animation-delay": "1s",
+                    "animation-delay": "2s",
                     "display": "block"
                 });
             });
